@@ -4,7 +4,7 @@ set -e
 THEME_NAME="theme"
 OUTDIR="$THEME_NAME/cursors"
 
-ls fdr/*.ini | xargs -n1 ani2png-rs
+ls fdr/*.ani | xargs -n1 ani2png-rs
 
 declare -A MAP=(
     ["standard Pointer"]="left_ptr"
